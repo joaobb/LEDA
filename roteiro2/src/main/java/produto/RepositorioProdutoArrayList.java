@@ -76,6 +76,7 @@ public class RepositorioProdutoArrayList {
 			throw new UnsupportedOperationException("Produto nulo!");
 		}
 		this.produtos.add(produto);
+		this.index++;
 	}
 
 	/**
@@ -84,6 +85,9 @@ public class RepositorioProdutoArrayList {
 	 * utilizado.
 	 */
 	public void atualizar(Produto produto) {
+		if (produto == null) {
+			throw new UnsupportedOperationException("Produto nulo!");
+		}
 		int indiceProduto = this.procurarIndice(produto.getCodigo());
 		this.produtos.set(indiceProduto, produto);
 	}
