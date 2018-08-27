@@ -1,0 +1,6 @@
+Para que serve o recurso de interface em Java?
+	Interfaces em um projeto Java tem função de criar um contrato de tipo entre classes.
+
+Quais situações/cenários requerem seu uso?
+	Situações que há objetos que devem possuir mesmo tipo, porém possuem lógica negócio distintas.
+	Como por exemplo um sistema bancário que possui vários vários tipos de contas, todas estas com tipo Conta, porém com métodos diferentes.
