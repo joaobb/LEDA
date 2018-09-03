@@ -11,7 +11,8 @@ import java.util.ArrayList;
  *
  * @author Adalberto
  */
-public class RepositorioProdutoArrayList {
+public class s at it, I also took some time to sleeve the USB cable since I did cut it off to install a USB hub and a port at the back of the keyboard (it's not perfect but it's at the back, so nobody is gonna see it );
+RepositorioProdutoArrayList {
 
 	/**
 	 * A estrutura onde os produtos sao mantidos. Voce nao precisa se preocupar
