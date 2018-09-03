@@ -9,35 +9,37 @@ public class MetodosRecursivos {
 		return result;
 	}
 	public long calcularFatorial(int n) {
-		long result = 1;
-		// TODO ESCREVA AQUI O CÓDIGO (USANDO RECURSAO) PARA CALCULAR E IMPRIMIR
-		// O FATORIAL DO PARAMETRO
-		// DE ACORDO COM O QUE FOI MOSTRADO NO EXERCCICIO. OBSERVE QUE SENDO O
-		// METODO
-		// RECURSIVO, O FATORIAL DOS NUMEROS ANTERIORES TAMBEM VAO SER IMPRESSOS
+		long result;
+		if (n == 1 || n == 0) {
+			result = 1;
+		} else {
+			result = n * this.calcularFatorial(n - 1);
+		}
 		return result;
 	}
 
 	public int calcularFibonacci(int n) {
-		int result = 1;
-		// TODO ESCREVA AQUI O CÓDIGO (USANDO RECURSAO) PARA CALCULAR E IMPRIMIR
-		// O N-ESIMO TERMO
-		// DA SEQUENCIA DE FIBONACCI, QUE TEM A SEGUINTE LEI DE FORMACAO: O
-		// PRIMEIRO E SEGUNDO NUMEROS
-		// DA SEQUENCIA SÃO 1. A PARTIR DO TERCEIRO TERMO, CADA TERMO DA
-		// SEQUENCIA É DADO
-		// PELA SOMA DOS OUTROS DOIS ANTERIORES. OBSERVE QUE SENDO O METODO
-		// RECURSIVO, O FIBONACCI DOS NUMEROS ANTERIORES TAMBEM VAO SER
-		// IMPRESSOS
+		int result;
+
+		if(n == 1 || n == 2) {
+			result = 1;
+		} else {
+			result = this.calcularFibonacci(n - 1) + this.calcularFibonacci(n - 2);
+		}
+		return result;
+	}
+
+	public int countNotNull(Object[] array, int index) {
+		int result = 0;
+
+		if (array[index] != null) result = 1;
+		if (array.length - 1 != index) result += this.countNotNull(array, ++index);
+
 		return result;
 	}
 
 	public int countNotNull(Object[] array) {
-		int result = 0;
-		// TODO IMPLEMENTE AQUI O CODIGO QUE CONTA (USANDO RECURSAO) A
-		// QUANTIDADE DE ELEMENTOS NAO NULOS
-		// DE UM ARRAY DE OBJETOS RECEBIDO COMO PARAMETRO
-		return result;
+		return this.countNotNull(array, 0);
 	}
 
 	public long potenciaDe2(int expoente) {

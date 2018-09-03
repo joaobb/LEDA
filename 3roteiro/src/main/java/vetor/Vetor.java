@@ -9,10 +9,10 @@ import java.util.Comparator;
  * @author Adalberto
  *
  */
-public class Vetor {
+public class Vetor <T> {
 
 	// O array interno onde os objetos manipulados são guardados
-	private Object[] arrayInterno;
+	private T[] arrayInterno;
 
 	// O tamanho que o array interno terá
 	private int tamanho;
@@ -26,6 +26,7 @@ public class Vetor {
 
 	public Vetor(int tamanho) {
 		super();
+		this.arrayInterno = new <T>[this.tamanho];
 		this.tamanho = tamanho;
 		this.indice = -1;
 	}
@@ -39,33 +40,48 @@ public class Vetor {
 	}
 
 	// Insere um objeto no vetor
-	public void inserir(Object o) {
-		// TODO Remove the exception and implement your code
-		throw new UnsupportedOperationException("Not implemented yet!");
+	public void inserir(T o) {
+		if (!this.isCheio()) {
+			this.arrayInterno[++indice] = o;
+		}
 	}
 
 	// Remove um objeto do vetor
-	public Object remover(Object o) {
-		// TODO Remove the exception and implement your code
-		throw new UnsupportedOperationException("Not implemented yet!");
+	public T remover(T o) {
+		T retorno = null;
+		for (int i = 0; i < this.tamanho; i++) {
+			if (this.arrayInterno[i].equals(o)) {
+				retorno = this.arrayInterno[i] = null;
+			}
+		}
+		return retorno;
 	}
 
 	// Procura um elemento no vetor
 	public Object procurar(Object o) {
-		// TODO Remove the exception and implement your code
-		throw new UnsupportedOperationException("Not implemented yet!");
+		Object retorno = null;
+		for (Object x : this.arrayInterno) {
+			if (o.equals(x)) retorno = x;
+		}
+		return retorno;
 	}
 
 	// Diz se o vetor está vazio
 	public boolean isVazio() {
-		// TODO Remove the exception and implement your code
-		throw new UnsupportedOperationException("Not implemented yet!");
+		boolean retorno;
+		if (this.indice == -1) retorno = true;
+		else retorno = false;
+
+		return retorno;
 	}
 
 	// Diz se o vetor está cheio
 	public boolean isCheio() {
-		// TODO Remove the exception and implement your code
-		throw new UnsupportedOperationException("Not implemented yet!");
+		boolean retorno;
+		if (this.indice - 1 == tamanho) retorno = true;
+		else retorno = false;
+
+		return retorno;
 	}
 
 }
