@@ -1,0 +1,15 @@
+public void m(Collection<T> obj)
+    É possivel adicionar apenas collections que possuem um certo tipo declarado anteriormante.
+
+public void m(Collections<?> obj)
+    É a superClasse de todos os objetos em collections.
+
+public void m(? extends T obj
+    Denota um tipo qualquer que é subtipo de T (Lower bound
+
+public void m(? super T) 
+    Denota um tipo qualquer que é supertipo de T (Upper bound)
+ 
+The syntax ? super T denotes an unknown type that is a
+supertype of T 3 . It is the dual of the bounded wildcards we’ve been using, where we
+use ? extends T to denote an unknown type that is a subtype of T.
