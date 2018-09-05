@@ -2,18 +2,18 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-08-30T14:18:40.595-0300</date>
+  <date>2018-09-03T16:27:40.607-0300</date>
   <logger>JOAO PEDRO DE BARROS BARBOSA</logger>
   <level>FINE</level>
-  <message>File 117210327-JOAO PEDRO DE BARROS BARBOSA.zip was received. It was sent by JOAO PEDRO DE BARROS BARBOSA from IP 150.165.42.212</message>
+  <message>File 117210327-JOAO PEDRO DE BARROS BARBOSA.zip was received. It was sent by JOAO PEDRO DE BARROS BARBOSA from IP 150.165.42.194</message>
 </record>
 </log>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-08-30T14:19:43.352-0300</date>
+  <date>2018-09-03T21:19:48.764-0300</date>
   <logger>JOAO PEDRO DE BARROS BARBOSA</logger>
   <level>FINE</level>
-  <message>File 117210327-JOAO PEDRO DE BARROS BARBOSA.zip was received. It was sent by JOAO PEDRO DE BARROS BARBOSA from IP 150.165.42.212</message>
+  <message>File 117210327-JOAO PEDRO DE BARROS BARBOSA.zip was received. It was sent by JOAO PEDRO DE BARROS BARBOSA from IP 192.168.0.104</message>
 </record>

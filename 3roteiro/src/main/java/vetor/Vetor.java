@@ -5,7 +5,7 @@ import java.util.Comparator;
 /**
  * Implementação de um vetor de objetos simples para exercitar os conceitos de
  * Generics.
- * 
+ *
  * @author Adalberto
  *
  */
@@ -26,7 +26,7 @@ public class Vetor <T> {
 
 	public Vetor(int tamanho) {
 		super();
-		this.arrayInterno = new <T>[this.tamanho];
+		this.arrayInterno = new [this.tamanho];
 		this.tamanho = tamanho;
 		this.indice = -1;
 	}

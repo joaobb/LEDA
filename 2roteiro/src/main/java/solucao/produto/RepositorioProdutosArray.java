@@ -8,14 +8,15 @@ import produto.Produto;
  * @author Adalberto
  *
  */
-public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
+public class RepositorioProdutosArray<T extends Produto> implements
+		RepositorioProdutos<T> {
 
-	private Produto[] produtos;
+	private T[] produtos;
 	private int index = -1;
 
 	public RepositorioProdutosArray(int size) {
 		super();
-		this.produtos = new Produto[size];
+		this.produtos = (T[]) new Object[size];
 	}
 
 	private int procurarIndice(int codigo) {
@@ -56,7 +57,7 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	 * @see solucao.produto.RepositorioProdutos#inserir(produto.Produto)
 	 */
 	@Override
-	public void inserir(Produto produto) {
+	public void inserir(T produto) {
 		produtos[++index] = produto;
 	}
 
@@ -66,7 +67,7 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	 * @see solucao.produto.RepositorioProdutos#atualizar(produto.Produto)
 	 */
 	@Override
-	public void atualizar(Produto produto) {
+	public void atualizar(T produto) {
 		int i = procurarIndice(produto.getCodigo());
 		if (i != -1) {
 			produtos[i] = produto;
@@ -99,8 +100,8 @@ public class RepositorioProdutosArray implements RepositorioProdutosSolucao {
 	 * @see solucao.produto.RepositorioProdutos#procurar(int)
 	 */
 	@Override
-	public Produto procurar(int codigo) {
-		Produto resp = null;
+	public T procurar(int codigo) {
+		T resp = null;
 		int i = this.procurarIndice(codigo);
 		if (i != -1) {
 			resp = produtos[i];
