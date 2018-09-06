@@ -7,7 +7,7 @@ public class SelectionSort<T extends Comparable<T>> {
 
         for (int i = leftIndex; i < rightIndex; i++) {
             menor = i;
-            for (int j = leftIndex++; j < rightIndex; j++) {
+            for (int j = i; j < rightIndex; j++) {
                 if (array[j].compareTo(array[menor]) < 0) {
                     menor = j;
                 }
