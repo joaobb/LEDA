@@ -37,3 +37,33 @@
   <level>FINE</level>
   <message>File 117210327-JOAO PEDRO DE BARROS BARBOSA.zip was received. It was sent by JOAO PEDRO DE BARROS BARBOSA from IP 150.165.42.205</message>
 </record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-09-06T23:28:32.439-0300</date>
+  <logger>JOAO PEDRO DE BARROS BARBOSA</logger>
+  <level>FINE</level>
+  <message>File 117210327-JOAO PEDRO DE BARROS BARBOSA.zip was received. It was sent by JOAO PEDRO DE BARROS BARBOSA from IP 192.168.0.10</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-09-06T23:30:55.558-0300</date>
+  <logger>JOAO PEDRO DE BARROS BARBOSA</logger>
+  <level>FINE</level>
+  <message>File 117210327-JOAO PEDRO DE BARROS BARBOSA.zip was received. It was sent by JOAO PEDRO DE BARROS BARBOSA from IP 192.168.0.10</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-09-06T23:32:23.785-0300</date>
+  <logger>JOAO PEDRO DE BARROS BARBOSA</logger>
+  <level>FINE</level>
+  <message>File 117210327-JOAO PEDRO DE BARROS BARBOSA.zip was received. It was sent by JOAO PEDRO DE BARROS BARBOSA from IP 192.168.0.10</message>
+</record>

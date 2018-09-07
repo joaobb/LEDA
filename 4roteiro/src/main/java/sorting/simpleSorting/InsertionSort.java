@@ -11,13 +11,15 @@ import util.Util;
  */
 public class InsertionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 
-   @Override
-   public void sort(T[] array, int leftIndex, int rightIndex) {
-      for (int i = leftIndex + 1; i <= rightIndex; i++) {
-         while (i - 1 >= 0 && array[i].compareTo(array[i - 1]) < 0) {
-            Util.swap(array, i, i - 1);
-            i--;
-         }
-      }
-   }
+    @Override
+    public void sort(T[] array, int leftIndex, int rightIndex) {
+        if (!(array == null || array.length == 0 || leftIndex < 0 || leftIndex > rightIndex || rightIndex > array.length)) {
+            for (int i = leftIndex + 1; i <= rightIndex; i++) {
+                while (i - 1 >= 0 && array[i].compareTo(array[i - 1]) < 0) {
+                    Util.swap(array, i, i - 1);
+                    i--;
+                }
+            }
+        }
+    }
 }
