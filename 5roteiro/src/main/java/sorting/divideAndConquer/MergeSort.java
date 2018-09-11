@@ -13,42 +13,37 @@ public class MergeSort<T extends Comparable<T>> extends AbstractSorting<T> {
 
     @Override
     public void sort(T[] array, int leftIndex, int rightIndex) {
-        if (array != null && leftIndex < rightIndex && leftIndex >= 0 && rightIndex < array.length) {
-            int meio = ((rightIndex + leftIndex) / 2);
-            sort(array, leftIndex, meio);
-            sort(array, meio + 1, rightIndex);
-            merge(array, leftIndex, meio, rightIndex);
-        }
+
+        if (leftIndex >= rightIndex) return;
+
+        int middleIndex = (leftIndex + rightIndex) / 2;
+
+        sort(array, leftIndex, middleIndex);
+        sort(array, middleIndex + 1, rightIndex);
+        merge(array, leftIndex, rightIndex, middleIndex);
     }
 
-    public void merge(T[] array, int rightIndex, int meio, int leftIndex) {
-        T[] mergedArray = Arrays.copyOf(array, leftIndex + 1);
+    private void merge(T[] array, int leftIndex, int rightIndex, int middleIndex) {
+        T[] auxiliar = Arrays.copyOf(array, rightIndex + 1);
 
-        //Índices auxiliares
-        int i = rightIndex;
-        int j = meio + 1;
-        int k = rightIndex;
+        int l = leftIndex;
+        int m = middleIndex + 1;
+        int oriArrInd = leftIndex;
 
-        //Junção das listas ordenadas
-        while (i <= meio && j <= leftIndex) {
-            if (mergedArray[i].compareTo(mergedArray[j]) < 0) {
-                array[k++] = mergedArray[i++];
+        while (l <= middleIndex && m <= rightIndex) {
+            if (auxiliar[l].compareTo(auxiliar[m]) <= 0) {
+                array[oriArrInd++] = auxiliar[l++];
             } else {
-                array[k++] = mergedArray[j++];
+                array[oriArrInd++] = auxiliar[m++];
             }
         }
 
-        while (i <= meio) {
-            array[k] = mergedArray[i];
-            i++;
-            k++;
+        while (l <= middleIndex) {
+            array[oriArrInd++] = auxiliar[l++];
         }
 
-        while (j <= rightIndex) {
-
-            array[k] = mergedArray[j];
-            j++;
-            k++;
+        while (m <= rightIndex) {
+            array[oriArrInd++] = auxiliar[m++];
         }
     }
 }

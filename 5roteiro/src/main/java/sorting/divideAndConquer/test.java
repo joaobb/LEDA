@@ -1,4 +1,11 @@
 package sorting.divideAndConquer;
 
-public class test {
+import sorting.AbstractSorting;
+
+public class test<T extends Comparable<T>> extends AbstractSorting<T> {
+
+   @Override
+   public void sort(T[] array, int leftIndex, int rightIndex) {
+
+   }
 }
