@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b006596d-7d84-4aea-8a14-e833d0cf8d20" name="Default Changelist" comment="" />
+    <list default="true" id="b006596d-7d84-4aea-8a14-e833d0cf8d20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../3roteiro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3roteiro/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,15 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="388517643">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -40,8 +51,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -49,16 +61,21 @@
               <item name="AlgoritmosOrdenacao" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgoritmosOrdenacao" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AlgoritmosOrdenacao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgoritmosOrdenacao" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -91,9 +108,9 @@
     <option name="totallyTimeSpent" value="467000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <frame x="45" y="25" width="1875" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12326574" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12465829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
