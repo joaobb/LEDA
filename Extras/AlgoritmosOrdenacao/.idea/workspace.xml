@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="926b7edd-072b-4acf-b64f-60c7e1ee5e57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5roteiro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../5roteiro/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoritmosOrdenacao/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoritmosOrdenacao/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,28 +51,29 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="503" />
+          <entry key="java" value="3440" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="503" />
+          <entry key="JAVA" value="3440" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -97,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/BubbleSortBasico.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -106,16 +105,25 @@
         <entry file="file://$PROJECT_DIR$/src/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="18" selection-end-line="25" selection-end-column="5" />
+              <caret line="25" column="5" selection-start-line="18" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/InsertionSort.java">
+        <entry file="file://$PROJECT_DIR$/src/countingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="432">
+              <caret line="51" column="52" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -149,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/InsertioSort.java" />
         <option value="$PROJECT_DIR$/src/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/countingSort.java" />
       </list>
     </option>
   </component>
@@ -158,7 +167,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="y" value="30" />
     <option name="width" value="960" />
@@ -174,13 +183,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536241266247" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536800843213" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
+  <component name="RunManager" selected="Application.countingSort">
     <configuration name="BubbleSortBasico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BubbleSortBasico" />
       <module name="AlgoritmosOrdenacao" />
@@ -216,13 +226,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="countingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="countingSort" />
+      <module name="AlgoritmosOrdenacao" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.BubbleSortBasico" />
       <item itemvalue="Application.SelectionSort" />
       <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="Application.countingSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.countingSort" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSortBasico" />
@@ -241,14 +260,15 @@
       <updated>1536102406746</updated>
       <workItem from="1536102409659" duration="4269000" />
       <workItem from="1536239743202" duration="1522000" />
+      <workItem from="1536781658954" duration="10624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5791000" />
+    <option name="totallyTimeSpent" value="16415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="30" width="960" height="1050" extended-state="4" />
+    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2497332" />
@@ -260,7 +280,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32934782" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32934782" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,6 +315,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BubbleSortBasico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" selection-start-line="18" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Comparable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -302,24 +336,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BubbleSortBasico.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="18" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="285">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/countingSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="51" column="52" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="52" />
         </state>
       </provider>
     </entry>
