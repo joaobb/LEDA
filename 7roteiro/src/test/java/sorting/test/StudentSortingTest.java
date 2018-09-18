@@ -7,6 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import sorting.AbstractSorting;
+import sorting.variationsOfBubblesort.CombSort;
 import sorting.variationsOfBubblesort.GnomeSort;
 
 public class StudentSortingTest {
@@ -37,7 +38,7 @@ public class StudentSortingTest {
 	 * do aluno
 	 */
 	private void getImplementation() {
-		this.implementation = new GnomeSort();
+		this.implementation = new CombSort<>();
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {
@@ -104,19 +105,4 @@ public class StudentSortingTest {
 	 * SEGUIR A ESTRUTURA DOS MÉTODOS DE TESTE ACIMA DESCRITOS, ORDENANDO APENAS
 	 * UMA PARTE DO ARRAY.
 	 */
-
-	@Test
-	public void testSort06() {
-		int qnt = 20000;
-		Integer[] array = new Integer[qnt];
-
-		for (int i = 0; i < array.length; i++) {
-			array[i] = (int) (Math.random() * qnt);
-		}
-
-		long inicio = System.currentTimeMillis();
-		genericTest(array);
-		long fim = System.currentTimeMillis();
-		System.out.println(fim - inicio);
-	}
 }
