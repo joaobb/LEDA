@@ -1,9 +1,5 @@
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/recursao/ExemplosRecursao.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/vetor/Vetor.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/solucao/recursao/MetodosRecursivos.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/recursao/GeradorSequencia.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/solucao/vetor/TesteVetor.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/solucao/vetor/Vetor.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/recursao/MetodosRecursivos.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/vetor/TestarVetor.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/vetor/Aluno.java
+/home/joaopbb/LEDA/6roteiro/src/main/java/util/Util.java
+/home/joaopbb/LEDA/6roteiro/src/main/java/sorting/linearSorting/CountingSort.java
+/home/joaopbb/LEDA/6roteiro/src/main/java/sorting/AbstractSorting.java
+/home/joaopbb/LEDA/6roteiro/src/main/java/sorting/linearSorting/ExtendedCountingSort.java
+/home/joaopbb/LEDA/6roteiro/src/main/java/sorting/Sorting.java

@@ -1,7 +1,5 @@
 util/Util.class
 sorting/AbstractSorting.class
-sorting/simpleSorting/InsertionSort.class
-sorting/variationsOfBubblesort/SimultaneousBubblesort.class
-sorting/simpleSorting/BubbleSort.class
-sorting/simpleSorting/SelectionSort.class
 sorting/Sorting.class
+sorting/variationsOfBubblesort/GnomeSort.class
+sorting/variationsOfBubblesort/CombSort.class

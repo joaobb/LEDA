@@ -1,7 +1,5 @@
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/sorting/Sorting.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/util/Util.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/sorting/simpleSorting/SelectionSort.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/sorting/simpleSorting/InsertionSort.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/sorting/AbstractSorting.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/sorting/simpleSorting/BubbleSort.java
-/home/joaopbb/LEDA/LEDA/4roteiro/src/main/java/sorting/variationsOfBubblesort/SimultaneousBubblesort.java
+/home/joaopbb/LEDA/7roteiro/src/main/java/sorting/AbstractSorting.java
+/home/joaopbb/LEDA/7roteiro/src/main/java/sorting/variationsOfBubblesort/CombSort.java
+/home/joaopbb/LEDA/7roteiro/src/main/java/util/Util.java
+/home/joaopbb/LEDA/7roteiro/src/main/java/sorting/variationsOfBubblesort/GnomeSort.java
+/home/joaopbb/LEDA/7roteiro/src/main/java/sorting/Sorting.java

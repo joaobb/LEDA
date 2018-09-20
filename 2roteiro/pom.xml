@@ -7,7 +7,7 @@
 	<version>1.0</version>
 	<packaging>jar</packaging>
 	<name>Submissao de roteiro</name>
-	
+
 	<pluginRepositories>
 		<pluginRepository>
 			<id>ufcg-leda</id>
@@ -19,7 +19,7 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -51,7 +51,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!-- PARA LIMPAR OS IMPORTS QUE NAO SAO UTILIZADOS -->			
+			<!-- PARA LIMPAR OS MPORTS QUE NAO SAO UTILIZADOS -->			
 			<plugin>
 				<groupId>org.walkmod</groupId>
 				<artifactId>maven-walkmod-plugin</artifactId>
@@ -71,6 +71,9 @@
 					</execution>
 				</executions>
 			</plugin>
+
+			<!-- PARA DEIXAR DE USAR O PLUGIN COMENTE A RESPECTIVA TAG. NAO RECOMENDADO 
+				PARA O COMPACTADOR -->
 			<plugin>
 				<groupId>br.edu.ufcg.ccc</groupId>
 				<artifactId>leda-compactor-tool</artifactId>
@@ -83,12 +86,41 @@
 						</goals>
 						<configuration>
 							<!-- insira sua matricula -->
-							<matricula>117210400</matricula>
+							<matricula>117210327</matricula>
 							<!-- insira o ID correto da atividade e a turma -->
-							<roteiro>RR2-01</roteiro>
+							<roteiro>R02-01</roteiro>
 							<!-- NÃO MODIFIQUE AS TAGS ABAIXO -->
 							<semestre>2018.2</semestre>
 							<url>http://150.165.85.29:81/submitAtividade</url>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- PARA DEIXAR DE USAR O PLUGIN COMENTE A RESPECTIVA TAG -->
+			<plugin>
+				<groupId>br.edu.ufcg.ccc</groupId>
+				<artifactId>leda-chart-tool</artifactId>
+				<version>1.0.0-SNAPSHOT</version>
+				<executions>
+					<execution>
+						<phase>compile</phase>
+						<goals>
+							<goal>generateChart</goal>
+						</goals>
+						<configuration>
+							<!-- MODIFIQUE O ATRIBUTO ABAIXO PARA false CASO VOCE NAO QUEIRA GERAR 
+								O GRAFICO DOS ALGORITMOS -->
+							<generateGraph>true</generateGraph>
+							<!-- INSIRA OS NOMES COMPLETOS DAS CLASSES A SEREM TESTADAS AQUI (Full 
+								qualified name = nome com o pacote) -->
+							<qualifiedNames>
+								 <name>sorting.divideAndConquer.MergeSort</name>
+								 <name>sorting.divideAndConquer.QuickSort</name>
+								 <name>sorting.divideAndConquer.threeWayQuicksort.ThreeWayQuickSort</name>
+								 <!--<name>sorting.divideAndConquer.threeWayQuicksort.ThreeWayQuickSort</name>-->
+								<!-- name>sorting.simpleSorting.InsertionSort</name -->
+							</qualifiedNames>
 						</configuration>
 					</execution>
 				</executions>

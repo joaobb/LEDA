@@ -1,4 +1,7 @@
-produtoQuest4/Produto.class
-produtoQuest4/ProdutoNaoPerecivel.class
-produtoQuest4/RepositorioProduto.class
-produtoQuest4/ProdutoPerecivel.class
+util/Util.class
+sorting/AbstractSorting.class
+sorting/simpleSorting/InsertionSort.class
+sorting/variationsOfBubblesort/SimultaneousBubblesort.class
+sorting/simpleSorting/BubbleSort.class
+sorting/simpleSorting/SelectionSort.class
+sorting/Sorting.class
