@@ -28,12 +28,11 @@ public class StackImp<T> implements Stack<T> {
 
     @Override
     public boolean isFull() {
-        return this.top == array.length - 1;
+        return this.top == array.length - 2;
     }
 
     @Override
     public void push(T element) throws RuntimeException {
-
         if (this.isFull())
             throw new RuntimeException();
         this.array[++top] = element;
