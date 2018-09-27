@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="926b7edd-072b-4acf-b64f-60c7e1ee5e57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoritmosOrdenacao/BubbleSortBasico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoritmosOrdenacao/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoritmosOrdenacao/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoritmosOrdenacao/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoritmosOrdenacao/countingSort.class" beforeDir="false" />
-    </list>
+    <list default="true" id="926b7edd-072b-4acf-b64f-60c7e1ee5e57" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +81,10 @@
     <session id="-1693226923">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -156,7 +152,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/countingSort.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="780">
+                <state relative-caret-position="810">
                   <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
                 </state>
               </provider>
@@ -319,8 +315,7 @@
     <option name="totallyTimeSpent" value="16426000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="45" y="25" width="1875" height="1055" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2497332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
