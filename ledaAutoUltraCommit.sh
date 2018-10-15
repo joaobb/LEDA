@@ -23,7 +23,7 @@ else                                            #No LEDA class today
 fi;
 
 ((roteiroId++))                                 #Sets to a new roteiro
-if [ $roteiroId -lt 10 ];                       #String formatation
+if [ $roteiroId -lt 10 ];                       #Stri   ng formatation
     then roteiroName="R0"$roteiroId"-01";       #09
 else roteiroName="R"$roteiroId"-01";            #10
 fi
@@ -41,9 +41,9 @@ while
 
 #This part was taken from gustavolbs's LEDA-AUTO-SEND repository
 wget -O "$roteiroName.zip" --post-data="id=$roteiroName&matricula=$matricula" http://150.165.85.29:81/download
-unzip  "$roteiroName.zip" -d "$roteiroName"
+unzip  "$roteiroName.zip" -d $roteiroId"roteiro"
 rm -rf "$roteiroName.zip"
 
-sed -i "s/INSIRA SEU NUMERO DE MATRICULA/$matricula/g;s/R0X-0X/$roteiroName/g" "$roteiroName"/pom.xml 
-cd $roteiroName
+sed -i "s/INSIRA SEU NUMERO DE MATRICULA/$matricula/g;s/R0X-0X/$roteiroName/g" $roteiroId"roteiro"/pom.xml 
+cd $roteiroId"roteiro"
 mvn install -DskipTests
