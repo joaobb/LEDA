@@ -1,5 +1,5 @@
-util/Util.class
 adt/hashtable/hashfunction/HashFunctionDivisionMethod.class
+util/Util.class
 adt/hashtable/AbstractHashtable.class
 adt/hashtable/hashfunction/HashFunctionClosedAddressMethod.class
 adt/hashtable/hashfunction/HashFunction.class

@@ -1,6 +1,8 @@
 #!/bin/bash
 #Author: joaobb
 
+git pull
+
 #Variables
 weekDay=$(date +%u);                            #Day of the week 1...7 (1 == Monday)
 
@@ -47,3 +49,7 @@ rm -rf "$roteiroName.zip"
 sed -i "s/INSIRA SEU NUMERO DE MATRICULA/$matricula/g;s/R0X-0X/$roteiroName/g" $roteiroId"roteiro"/pom.xml 
 cd $roteiroId"roteiro"
 mvn install -DskipTests
+
+git add .
+git commit -m "Adição de roteiro" $roteiroId
+git push origin master
