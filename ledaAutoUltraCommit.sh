@@ -51,5 +51,5 @@ cd $roteiroId"roteiro"
 mvn install -DskipTests
 
 git add .
-git commit -m "Adição de roteiro" $roteiroId
+git commit -m "Adição de roteiro $roteiroId"
 git push
