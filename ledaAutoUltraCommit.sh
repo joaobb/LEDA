@@ -52,4 +52,4 @@ mvn install -DskipTests
 
 git add .
 git commit -m "Adição de roteiro" $roteiroId
-git push origin master
+git push
