@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9df95ce-aa79-4fff-8d26-fa0b577ece3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/wordCloud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9roteiro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../9roteiro/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,23 +50,46 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
+    <session id="864341498">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2403" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2403" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/elemRepetidos.java">
+        <entry file="file://$PROJECT_DIR$/src/wordCloud.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mergePassoPasso.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,40 +97,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/recursiveBubble.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/recursiveSelection.java">
+        <entry file="file://$PROJECT_DIR$/src/pilhaComArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="5" selection-start-line="37" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/furaFila.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="5" selection-start-line="21" selection-start-column="2" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="123">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +133,8 @@
         <option value="$PROJECT_DIR$/src/mergePassoPasso.java" />
         <option value="$PROJECT_DIR$/src/recursiveBubble.java" />
         <option value="$PROJECT_DIR$/src/recursiveSelection.java" />
+        <option value="$PROJECT_DIR$/src/wordCloud.java" />
+        <option value="$PROJECT_DIR$/src/pilhaComArray.java" />
       </list>
     </option>
   </component>
@@ -157,7 +160,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537406210865" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540344754823" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -176,14 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.recursiveSelection">
-    <configuration name="furaFila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="furaFila" />
-      <module name="tstEda" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.pilhaComArray">
     <configuration name="mergePassoPasso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mergePassoPasso" />
       <module name="tstEda" />
@@ -191,8 +188,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mergeSort" />
+    <configuration name="pilhaComArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pilhaComArray" />
       <module name="tstEda" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,20 +209,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="wordCloud" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wordCloud" />
+      <module name="tstEda" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.mergeSort" />
-      <item itemvalue="Application.furaFila" />
       <item itemvalue="Application.mergePassoPasso" />
       <item itemvalue="Application.recursiveBubble" />
       <item itemvalue="Application.recursiveSelection" />
+      <item itemvalue="Application.wordCloud" />
+      <item itemvalue="Application.pilhaComArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pilhaComArray" />
+        <item itemvalue="Application.wordCloud" />
         <item itemvalue="Application.recursiveSelection" />
         <item itemvalue="Application.recursiveBubble" />
         <item itemvalue="Application.mergePassoPasso" />
-        <item itemvalue="Application.furaFila" />
-        <item itemvalue="Application.mergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -244,14 +248,15 @@
       <workItem from="1537911886242" duration="3000" />
       <workItem from="1537917396349" duration="9000" />
       <workItem from="1538066805146" duration="104000" />
+      <workItem from="1540340431837" duration="4102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13077000" />
+    <option name="totallyTimeSpent" value="17179000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.512035" />
@@ -263,7 +268,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32934782" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32842106" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,7 +277,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32934782" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32842106" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,6 +338,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/recursiveSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -342,7 +354,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/furaFila.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="375">
           <caret line="25" column="5" selection-start-line="21" selection-start-column="2" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -350,10 +362,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/recursiveSelection.java">
+    <entry file="file://$PROJECT_DIR$/src/wordCloud.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pilhaComArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
