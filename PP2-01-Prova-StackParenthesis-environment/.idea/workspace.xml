@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cfc8c27-b2c2-4d91-b391-06b7c2ef3b24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../9roteiro/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/AbstractHashtable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/Hashtable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/hashfunction/HashFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/hashfunction/HashFunctionClosedAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/hashfunction/HashFunctionClosedAddressMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/hashfunction/HashFunctionDivisionMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/hashfunction/HashFunctionFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/hashfunction/HashFunctionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/hashfunction/HashFunctionLinearProbing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/hashfunction/HashFunctionMultiplicationMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/hashfunction/HashFunctionOpenAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/hashfunction/HashFunctionOpenAddressMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/hashfunction/HashFunctionQuadraticProbing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/open/AbstractHashtableOpenAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/open/DELETED.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/open/HashtableElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/open/HashtableOverflowException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/adt/hashtable/open/Storable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../9roteiro/target/classes/util/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10roteiro/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../10roteiro/target/submission-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,9 +16,10 @@
     <session id="25856750">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,12 +45,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/parenthesis/LongestValidParenthesisSubstringImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="107" column="5" lean-forward="true" selection-start-line="96" selection-end-line="107" selection-end-column="5" />
+            <state relative-caret-position="1605">
+              <caret line="107" column="5" selection-start-line="96" selection-end-line="107" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -79,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/parenthesis/LongestValidParenthesisSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="26" />
+            <state relative-caret-position="630">
+              <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -107,55 +86,14 @@
     <option name="x" value="47" />
     <option name="y" value="25" />
     <option name="width" value="1096" />
-    <option name="height" value="1055" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PP2-01-Prova-StackParenthesis-environment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PP2-01-Prova-StackParenthesis-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PP2-01-Prova-StackParenthesis-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PP2-01-Prova-StackParenthesis-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PP2-01-Prova-StackParenthesis-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="parenthesis" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540492513402" />
@@ -209,19 +147,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="25" width="1096" height="1055" extended-state="4" />
+    <frame x="47" y="25" width="1096" height="1053" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24958949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
@@ -229,14 +164,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -258,24 +197,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="327" column="32" selection-start-line="327" selection-start-column="32" selection-end-line="327" selection-end-column="32" />
-          <folding>
-            <element signature="e#12107#12108#0" expanded="true" />
-            <element signature="e#12147#12148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/parenthesis/LongestValidParenthesisSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/parenthesis/LongestValidParenthesisSubstringImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="107" column="5" lean-forward="true" selection-start-line="96" selection-end-line="107" selection-end-column="5" />
+        <state relative-caret-position="1605">
+          <caret line="107" column="5" selection-start-line="96" selection-end-line="107" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/parenthesis/LongestValidParenthesisSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
