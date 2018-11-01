@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: adt.bst.StudentBSTTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.044 sec <<< FAILURE! - in adt.bst.StudentBSTTest
+testSucessorPredecessor(adt.bst.StudentBSTTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<232>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at adt.bst.StudentBSTTest.testSucessorPredecessor(StudentBSTTest.java:84)
+
+testSize(adt.bst.StudentBSTTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at adt.bst.BSTImpl.remove(BSTImpl.java:171)
+	at adt.bst.StudentBSTTest.testSize(StudentBSTTest.java:105)
+
+testHeight(adt.bst.StudentBSTTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet!
+	at adt.bst.BSTImpl.preOrder(BSTImpl.java:194)
+	at adt.bst.StudentBSTTest.testHeight(StudentBSTTest.java:116)
+
+testMinMax(adt.bst.StudentBSTTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<6> but was:<23>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at adt.bst.StudentBSTTest.testMinMax(StudentBSTTest.java:63)
+
+testRemove(adt.bst.StudentBSTTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at adt.bst.BSTImpl.remove(BSTImpl.java:171)
+	at adt.bst.StudentBSTTest.testRemove(StudentBSTTest.java:133)
+
