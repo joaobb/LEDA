@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="749c7e98-79f3-4d17-8ac5-d7ec4fccbcd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/117210327-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/117210327-send.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/117210327.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/117210327.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bst/BSTImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/bst/BSTImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/submission-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../submission/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../submission/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="749c7e98-79f3-4d17-8ac5-d7ec4fccbcd6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +13,7 @@
     <session id="147424448">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -140,7 +132,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="300">
+                  <caret line="20" column="5" lean-forward="true" selection-end-line="155" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#253#262#0" expanded="true" />
@@ -272,7 +265,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541194753443" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541194756977" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -340,7 +333,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541187937543</updated>
-      <workItem from="1541187938896" duration="5870000" />
+      <workItem from="1541187938896" duration="5904000" />
     </task>
     <servers />
   </component>
@@ -377,7 +370,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5870000" />
+    <option name="totallyTimeSpent" value="5904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="2123" extended-state="0" />
@@ -397,7 +390,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16608128" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16608128" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.18464626" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -506,8 +499,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-end-line="155" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#253#262#0" expanded="true" />
