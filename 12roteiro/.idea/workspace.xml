@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="914a444a-c41d-4f83-bbfc-bd1d60879e1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../10roteiro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10roteiro/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/117210327-send.log" beforeDir="false" />
+    <list default="true" id="51fbca3a-8428-4063-92a9-7a09dbb0cd10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../11roteiro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11roteiro/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11roteiro/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../11roteiro/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11roteiro/target/classes/adt/bst/BSTImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../11roteiro/target/classes/adt/bst/BSTImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11roteiro/target/classes/adt/bst/extended/SortComparatorBSTImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../11roteiro/target/classes/adt/bst/extended/SortComparatorBSTImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11roteiro/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../11roteiro/target/submission-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/117210327-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/117210327-send.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/117210327.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/submission-1.0.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,90 +22,56 @@
     <session id="-1736987136">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="4" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="4" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2136" />
+          <entry key="java" value="290" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2136" />
+          <entry key="JAVA" value="290" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="submission" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="159" column="5" lean-forward="true" selection-start-line="159" selection-start-column="5" selection-end-line="159" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1264#1294#0" expanded="true" />
-                <element signature="e#1525#1526#0" expanded="true" />
-                <element signature="e#1559#1560#0" expanded="true" />
-                <element signature="e#1722#1723#0" expanded="true" />
-                <element signature="e#1756#1757#0" expanded="true" />
-                <element signature="e#1919#1920#0" expanded="true" />
-                <element signature="e#1957#1958#0" expanded="true" />
-                <element signature="e#2003#2004#0" expanded="true" />
-                <element signature="e#2039#2040#0" expanded="true" />
-                <element signature="e#4692#4693#0" expanded="true" />
-                <element signature="e#4729#4730#0" expanded="true" />
-                <element signature="e#4773#4774#0" expanded="true" />
-                <element signature="e#4806#4807#0" expanded="true" />
-                <element signature="e#4865#4866#0" expanded="true" />
-                <element signature="e#4909#4910#0" expanded="true" />
-                <element signature="e#4937#4938#0" expanded="true" />
-                <element signature="e#4964#4965#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/Heap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="31" column="73" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="73" />
+            <state relative-caret-position="690">
+              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>null</find>
-      <find>bind</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -113,17 +79,38 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="962" />
-    <option name="y" value="25" />
-    <option name="width" value="958" />
-    <option name="height" value="1055" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Submissao de roteiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Submissao de roteiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="226" />
+    <option name="y" value="216" />
+    <option name="width" value="930" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,7 +120,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,10 +160,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541451138328" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541463146486" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,7 +207,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMinHeapTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentMinHeapTest.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
         <pattern>
@@ -230,7 +217,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="adt.heap" />
       <option name="MAIN_CLASS_NAME" value="adt.heap.StudentMinHeapTest" />
-      <option name="METHOD_NAME" value="testRemove" />
+      <option name="METHOD_NAME" value="testSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -238,14 +225,14 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.StudentMinHeapTest" />
-      <item itemvalue="JUnit.StudentMinHeapTest.testRemove" />
+      <item itemvalue="JUnit.StudentMinHeapTest.testSort" />
       <item itemvalue="JUnit.StudentMaxHeapTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StudentMaxHeapTest" />
-        <item itemvalue="JUnit.StudentMinHeapTest.testRemove" />
         <item itemvalue="JUnit.StudentMinHeapTest" />
+        <item itemvalue="JUnit.StudentMinHeapTest.testSort" />
       </list>
     </recent_temporary>
   </component>
@@ -254,185 +241,141 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="914a444a-c41d-4f83-bbfc-bd1d60879e1b" name="Default Changelist" comment="" />
-      <created>1541444915418</created>
+      <changelist id="51fbca3a-8428-4063-92a9-7a09dbb0cd10" name="Default Changelist" comment="" />
+      <created>1541459194772</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541444915418</updated>
+      <updated>1541459194772</updated>
+      <workItem from="1541459196828" duration="3055000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 17h 40m 08s.xml">
+    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 21h 04m 59s.xml">
       <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 17h 40m 19s.xml">
+    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 21h 05m 10s.xml">
       <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 17h 40m 49s.xml">
+    <history-entry file="StudentMinHeapTest - 2018.11.05 at 21h 05m 14s.xml">
+      <configuration name="StudentMinHeapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMinHeapTest - 2018.11.05 at 21h 05m 29s.xml">
+      <configuration name="StudentMinHeapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 21h 05m 35s.xml">
       <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 17h 41m 43s.xml">
+    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 21h 05m 56s.xml">
       <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 17h 42m 18s.xml">
-      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest - 2018.11.05 at 21h 06m 01s.xml">
+      <configuration name="StudentMinHeapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 17h 42m 50s.xml">
-      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest - 2018.11.05 at 21h 06m 32s.xml">
+      <configuration name="StudentMinHeapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 17h 43m 44s.xml">
-      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
+    <history-entry file="StudentMinHeapTest - 2018.11.05 at 21h 07m 03s.xml">
+      <configuration name="StudentMinHeapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 17h 49m 06s.xml">
-      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 17h 49m 37s.xml">
-      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 17h 50m 05s.xml">
+    <history-entry file="StudentMaxHeapTest - 2018.11.05 at 21h 07m 07s.xml">
       <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3055000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="962" y="25" width="958" height="1055" extended-state="4" />
-    <editor active="true" />
+    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.338945" />
+      <window_info id="Favorites" sideWeight="0.5010526" side_tool="true" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" weight="0.2497332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32934782" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info active="true" anchor="right" id="Maven Projects" visible="true" weight="0.32977587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+        <state relative-caret-position="-195">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5079#5080#0" expanded="true" />
+            <element signature="e#5116#5117#0" expanded="true" />
+            <element signature="e#5160#5161#0" expanded="true" />
+            <element signature="e#5193#5194#0" expanded="true" />
+            <element signature="e#5252#5253#0" expanded="true" />
+            <element signature="e#5296#5297#0" expanded="true" />
+            <element signature="e#5324#5325#0" expanded="true" />
+            <element signature="e#5351#5352#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        <state relative-caret-position="195">
+          <caret line="22" column="61" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/Heap.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="31" column="73" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="73" />
+        <state relative-caret-position="-255">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="159" column="5" lean-forward="true" selection-start-line="159" selection-start-column="5" selection-end-line="159" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1264#1294#0" expanded="true" />
-            <element signature="e#1525#1526#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#1756#1757#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-            <element signature="e#1957#1958#0" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-            <element signature="e#2039#2040#0" expanded="true" />
-            <element signature="e#4692#4693#0" expanded="true" />
-            <element signature="e#4729#4730#0" expanded="true" />
-            <element signature="e#4773#4774#0" expanded="true" />
-            <element signature="e#4806#4807#0" expanded="true" />
-            <element signature="e#4865#4866#0" expanded="true" />
-            <element signature="e#4909#4910#0" expanded="true" />
-            <element signature="e#4937#4938#0" expanded="true" />
-            <element signature="e#4964#4965#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="690">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

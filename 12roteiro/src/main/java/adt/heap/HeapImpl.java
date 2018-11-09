@@ -135,6 +135,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
         this.getHeap()[0] = this.getHeap()[this.index];
         this.index--;
         this.heapify(0);
+        this.getHeap()[index + 1] = null;
         return max;
     }
 
@@ -147,15 +148,22 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 
     @Override
     public T[] heapsort(T[] array) {
+        Comparator<T> originalComp = this.getComparator();
+
+        this.comparator = Comparator.naturalOrder();
+
         buildHeap(array);
+
         for (int i = array.length - 1; i >= 1; i--) {
             Util.swap(this.getHeap(), 0, i);
             this.index--;
             this.heapify(0);
         }
+
         array = Arrays.copyOf(this.getHeap(), array.length);
         this.index = -1;
         this.heap = (T[]) (new Comparable[INITIAL_SIZE]);
+        this.comparator = originalComp;
         return array;
     }
 

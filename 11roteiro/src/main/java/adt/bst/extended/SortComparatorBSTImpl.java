@@ -1,8 +1,11 @@
 package adt.bst.extended;
-
-import java.util.Comparator;
-
 import adt.bst.BSTImpl;
+import adt.bst.BSTNode;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 
 /**
  * Implementacao de SortComparatorBST, uma BST que usa um comparator interno em suas funcionalidades
@@ -24,16 +27,32 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 
 	@Override
 	public T[] sort(T[] array) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		ArrayList<T> aux = new ArrayList<>(Arrays.asList(array));
+		Collections.sort(aux, getComparator());
+		return (T[]) aux.toArray();
 	}
 
 	@Override
 	public T[] reverseOrder() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		T[] array = (T[]) new Comparable[this.size()];
+		if (this.isEmpty()) return array;
+		reverseOrder(array, root, 0);
+		return array;
 	}
 
+	private int reverseOrder(T[] array, BSTNode<T> node, int index) {
+		if (!node.getRight().isEmpty() && node.getRight() instanceof BSTNode) {
+			index = reverseOrder(array, (BSTNode<T>) node.getRight(), index);
+		}
+
+		array[index++] = node.getData();
+
+		if (!node.getLeft().isEmpty() && node.getLeft() instanceof BSTNode) {
+			index = reverseOrder(array, (BSTNode<T>) node.getLeft(), index);
+		}
+
+		return index;
+	}
 	public Comparator<T> getComparator() {
 		return comparator;
 	}
