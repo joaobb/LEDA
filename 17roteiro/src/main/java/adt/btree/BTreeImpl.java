@@ -56,7 +56,7 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
     private BNodePosition<T> search(BNode<T> node, T elem) {
         int ind = 0;
 
-        while (ind <= node.size() && elem.compareTo(node.elements.get(ind)) > 0) {
+        while (ind <= node.size() && elem.compareTo(node.elements.get(ind++)) > 0) {
             ind++;
         }
         if (ind <= node.size() && elem.equals(node.elements.get(ind))) {
@@ -70,19 +70,38 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 
     @Override
     public void insert(T element) {
-        // TODO Implement your code here
-        throw new UnsupportedOperationException("Not Implemented yet!");
+        if (element != null) {
 
+        }
     }
 
     private void split(BNode<T> node) {
-        // TODO Implement your code here
-        throw new UnsupportedOperationException("Not Implemented yet!");
+        T elemMed = node.getElements().get((int) Math.ceil(node.size()/2.0) - 1);
+
+        BNode<T> left = new BNode<>(node.size());
+        BNode<T> right = new BNode<>(node.size());
+
+        for (T elem:node.getElements()) {
+            if (elem.compareTo(elemMed) < 0)
+                left.addElement(elem);
+            else if (elem.compareTo(elemMed) > 0)
+                right.addElement(elem);
+        }
+
+        if (node.getParent() == null) {
+            node.setParent(new BNode<>(order));
+            node.getParent().getChildren().addFirst(node);
+        }
+        node.getParent().addElement(elemMed);
+
+
     }
 
     private void promote(BNode<T> node) {
-        // TODO Implement your code here
-        throw new UnsupportedOperationException("Not Implemented yet!");
+        T elemMed = node.getElements().get((int) Math.ceil(node.size()/2.0) - 1);
+
+        node.getParent().addElement(elemMed);
+        if ()
     }
 
     // NAO PRECISA IMPLEMENTAR OS METODOS ABAIXO
