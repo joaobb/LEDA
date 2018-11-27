@@ -92,8 +92,16 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
             node.setParent(new BNode<>(order));
             node.getParent().getChildren().addFirst(node);
         }
+
         node.getParent().addElement(elemMed);
 
+        int indCh = node.getParent().indexOfChild(node);
+        node.getParent().addChild(indCh, left);
+        node.getParent().addChild(++indCh, right);
+
+        node.getParent().removeChild(node);
+
+        
 
     }
 
