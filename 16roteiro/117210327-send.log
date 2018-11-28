@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE log SYSTEM "logger.dtd">
-<log>
-<record>
-  <date>2018-11-22T19:05:19.842-0300</date>
-  <logger>JOAO PEDRO DE BARROS BARBOSA</logger>
-  <level>FINE</level>
-  <message>File 117210327-JOAO PEDRO DE BARROS BARBOSA.zip was received. It was sent by JOAO PEDRO DE BARROS BARBOSA from IP 192.168.0.8</message>
-</record>
+Envio do roteiro R16-01 possivel apenas entre 22/11/2018 14:00:00 e 24/11/2018 14:00:00. A hora atual do servidor eh: 24/11/2018 14:01:06

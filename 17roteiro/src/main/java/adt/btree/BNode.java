@@ -75,10 +75,10 @@ public class BNode<T extends Comparable<T>> {
 		//TODO Implement your code here
 		throw new UnsupportedOperationException("Not implemented yet!");
 	}
-	protected void promote(){
-		//TODO Implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
+	protected void promote(T elemMed){
+		this.parent.addElement(elemMed);
 	}
+
 	public LinkedList<T> getElements() {
 		return elements;
 	}

@@ -2,133 +2,170 @@ package adt.btree;
 
 public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 
-    protected BNode<T> root;
-    protected int order;
+   protected BNode<T> root;
+   protected int order;
 
-    public BTreeImpl(int order) {
-        this.order = order;
-        this.root = new BNode<T>(order);
-    }
+   public BTreeImpl(int order) {
+      this.order = order;
+      this.root = new BNode<T>(order);
+   }
 
-    @Override
-    public BNode<T> getRoot() {
-        return this.root;
-    }
+   @Override
+   public BNode<T> getRoot() {
+      return this.root;
+   }
 
-    @Override
-    public boolean isEmpty() {
-        return this.root.isEmpty();
-    }
+   @Override
+   public boolean isEmpty() {
+      return this.root.isEmpty();
+   }
 
-    @Override
-    public int height() {
-        return height(this.root);
-    }
+   @Override
+   public int height() {
+      int result = -1;
+      if (!this.getRoot().isEmpty()) {
+         result = height(this.getRoot());
+      }
+      return result;
+   }
 
-    private int height(BNode<T> node) {
-        int result = 0;
-        if (!node.isLeaf()) {
-            result = 1 + height(node.getChildren().getFirst());
-        }
-        return result;
-    }
+   private int height(BNode<T> node) {
+      int result = 0;
+      if (!node.isLeaf()) {
+         result = 1 + this.height(node.children.getFirst());
+      }
+      return result;
+   }
 
-    @Override
-    public BNode<T>[] depthLeftOrder() {
-        return depthLeftOrder(this.getRoot());
-    }
+   @Override
+   public BNode<T>[] depthLeftOrder() {
+      BNode<T>[] result = new BNode[this.size() - 1];
+      depthLeftOrder(this.getRoot(), result, 0);
+      return result;
+   }
 
-    private BNode<T>[] depthLeftOrder(BNode<T> root) {
-        return null;
-    }
+   private int depthLeftOrder(BNode<T> node, BNode<T>[] array, int index) {
+      array[index] = node;
+      index++;
+      for (int i = 0; i < node.children.size(); i++) {
+         index = this.depthLeftOrder(node.children.get(i), array, index);
+      }
+      return index;
+   }
 
-    @Override
-    public int size() {
-        // TODO Implement your code here
-        throw new UnsupportedOperationException("Not Implemented yet!");
-    }
+   @Override
+   public int size() {
+      return this.size(this.getRoot());
+   }
 
-    @Override
-    public BNodePosition<T> search(T element) {
-        return search(this.getRoot(), element);
-    }
+   private int size(BNode<T> node) {
+      int size = node.getElements().size();
 
-    private BNodePosition<T> search(BNode<T> node, T elem) {
-        int ind = 0;
+      for (int i = 0; i < node.getChildren().size(); i++) {
+         size += this.size(node.getChildren().get(i));
+      }
+      return size;
+   }
 
-        while (ind <= node.size() && elem.compareTo(node.elements.get(ind++)) > 0) {
+   @Override
+   public BNodePosition<T> search(T element) {
+      return search(this.getRoot(), element);
+   }
+
+   private BNodePosition<T> search(BNode<T> node, T elem) {
+      int ind = 0;
+
+      while (ind <= node.size() && elem.compareTo(node.elements.get(ind++)) > 0) {
+         ind++;
+      }
+      if (ind <= node.size() && elem.equals(node.elements.get(ind))) {
+         return new BNodePosition<>(node, ind);
+      } else if (node.isLeaf()) {
+         return new BNodePosition<>(null, -1);
+      } else {
+         return this.search(node.getChildren().get(ind), elem);
+      }
+   }
+
+   @Override
+   public void insert(T element) {
+      if (element != null) {
+         insert(this.getRoot(), element);
+      }
+   }
+
+   private void insert(BNode<T> node, T element) {
+      if (node.isLeaf()) {
+         node.addElement(element);
+      } else {
+         int ind = 0;
+         while (ind < node.size() && node.getElementAt(ind).compareTo(element) < 0) {
             ind++;
-        }
-        if (ind <= node.size() && elem.equals(node.elements.get(ind))) {
-            return new BNodePosition<>(node, ind);
-        } else if (node.isLeaf()) {
-            return new BNodePosition<>(null, -1);
-        } else {
-            return search(node.getChildren().get(ind), elem);
-        }
-    }
+         }
+      }
+      if (node.elements.size() >= node.order) {
+         System.out.println();
+         split(node);
+      }
+   }
 
-    @Override
-    public void insert(T element) {
-        if (element != null) {
+   private void split(BNode<T> node) {
+      int median = (int) Math.ceil(node.size() / 2.0) - 1;
+      T elemMed = node.getElements().get((int) Math.ceil(node.size() / 2.0) - 1);
 
-        }
-    }
+      BNode<T> left = new BNode<>(node.size());
+      BNode<T> right = new BNode<>(node.size());
 
-    private void split(BNode<T> node) {
-        T elemMed = node.getElements().get((int) Math.ceil(node.size()/2.0) - 1);
+      for (T elem : node.getElements()) {
+         if (elem.compareTo(elemMed) < 0)
+            left.addElement(elem);
+         else if (elem.compareTo(elemMed) > 0)
+            right.addElement(elem);
+      }
 
-        BNode<T> left = new BNode<>(node.size());
-        BNode<T> right = new BNode<>(node.size());
+      if (node == this.getRoot()) {
+         BNode<T> newRoot = new BNode<T>(node.getOrder());
+         newRoot.addElement(elemMed);
+         node.setParent(newRoot);
+         root = newRoot;
 
-        for (T elem:node.getElements()) {
-            if (elem.compareTo(elemMed) < 0)
-                left.addElement(elem);
-            else if (elem.compareTo(elemMed) > 0)
-                right.addElement(elem);
-        }
+         for (int i = 0; i < node.getChildren().size(); i++) {
+            if (i <= median) {
+               left.addChild(i, node.getChildren().get(i));
+            } else {
+               right.addChild(i - median - 1, node.getChildren().get(i));
+            }
+         }
+         newRoot.addChild(0, left);
+         newRoot.addChild(1, right);
+         newRoot.getChildren().get(0).setParent(newRoot);
+         newRoot.getChildren().get(1).setParent(newRoot);
+      } else {
+         promote(node);
+      }
+   }
 
-        if (node.getParent() == null) {
-            node.setParent(new BNode<>(order));
-            node.getParent().getChildren().addFirst(node);
-        }
+   private void promote(BNode<T> node) {
+      throw new UnsupportedOperationException("Not Implemented yet!");
+   }
 
-        node.getParent().addElement(elemMed);
+   // NAO PRECISA IMPLEMENTAR OS METODOS ABAIXO
+   @Override
+   public BNode<T> maximum(BNode<T> node) {
+      // NAO PRECISA IMPLEMENTAR
+      throw new UnsupportedOperationException("Not Implemented yet!");
+   }
 
-        int indCh = node.getParent().indexOfChild(node);
-        node.getParent().addChild(indCh, left);
-        node.getParent().addChild(++indCh, right);
+   @Override
+   public BNode<T> minimum(BNode<T> node) {
+      // NAO PRECISA IMPLEMENTAR
+      throw new UnsupportedOperationException("Not Implemented yet!");
+   }
 
-        node.getParent().removeChild(node);
-
-        
-
-    }
-
-    private void promote(BNode<T> node) {
-        T elemMed = node.getElements().get((int) Math.ceil(node.size()/2.0) - 1);
-
-        node.getParent().addElement(elemMed);
-        if ()
-    }
-
-    // NAO PRECISA IMPLEMENTAR OS METODOS ABAIXO
-    @Override
-    public BNode<T> maximum(BNode<T> node) {
-        // NAO PRECISA IMPLEMENTAR
-        throw new UnsupportedOperationException("Not Implemented yet!");
-    }
-
-    @Override
-    public BNode<T> minimum(BNode<T> node) {
-        // NAO PRECISA IMPLEMENTAR
-        throw new UnsupportedOperationException("Not Implemented yet!");
-    }
-
-    @Override
-    public void remove(T element) {
-        // NAO PRECISA IMPLEMENTAR
-        throw new UnsupportedOperationException("Not Implemented yet!");
-    }
+   @Override
+   public void remove(T element) {
+      // NAO PRECISA IMPLEMENTAR
+      throw new UnsupportedOperationException("Not Implemented yet!");
+   }
 
 }
