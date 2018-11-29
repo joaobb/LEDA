@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc3232bb-5b5e-4b97-aea0-969f1126ef09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../117210327-send.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/bt/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/bt/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/avltree/AVLTreeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/avltree/AVLTreeImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bst/BSTImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/bst/BSTImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bt/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/bt/Util.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +15,12 @@
     <session id="-638066533">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.68" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -62,8 +56,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="870">
-                  <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+                <state relative-caret-position="990">
+                  <caret line="66" selection-start-line="66" selection-end-line="66" />
                 </state>
               </provider>
             </entry>
@@ -71,12 +65,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="37" column="33" selection-start-line="37" selection-end-line="38" />
-                  <folding>
-                    <element signature="e#445#446#0" expanded="true" />
-                    <element signature="e#492#493#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="845">
+                  <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -93,22 +83,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1455">
-                  <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#155#156#0" expanded="true" />
-                    <element signature="e#185#186#0" expanded="true" />
-                    <element signature="e#217#218#0" expanded="true" />
-                    <element signature="e#240#241#0" expanded="true" />
-                    <element signature="e#280#281#0" expanded="true" />
-                    <element signature="e#308#309#0" expanded="true" />
-                    <element signature="e#343#344#0" expanded="true" />
-                    <element signature="e#379#380#0" expanded="true" />
-                    <element signature="e#5800#5801#0" expanded="true" />
-                    <element signature="e#5824#5825#0" expanded="true" />
-                    <element signature="e#6117#6118#0" expanded="true" />
-                    <element signature="e#6146#6147#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="3765">
+                  <caret line="269" column="1" selection-start-line="269" selection-start-column="1" selection-end-line="269" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -120,22 +96,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-                  <folding>
-                    <element signature="e#155#156#0" expanded="true" />
-                    <element signature="e#185#186#0" expanded="true" />
-                    <element signature="e#217#218#0" expanded="true" />
-                    <element signature="e#240#241#0" expanded="true" />
-                    <element signature="e#280#281#0" expanded="true" />
-                    <element signature="e#308#309#0" expanded="true" />
-                    <element signature="e#343#344#0" expanded="true" />
-                    <element signature="e#379#380#0" expanded="true" />
-                    <element signature="e#5800#5801#0" expanded="true" />
-                    <element signature="e#5824#5825#0" expanded="true" />
-                    <element signature="e#6117#6118#0" expanded="true" />
-                    <element signature="e#6146#6147#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="845">
+                  <caret line="110" column="9" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -173,6 +135,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,7 +222,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -351,10 +314,10 @@
     <option name="totallyTimeSpent" value="2518000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <frame x="47" y="25" width="1873" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21729611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -371,7 +334,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -407,8 +370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="990">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
@@ -419,35 +382,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#5800#5801#0" expanded="true" />
-            <element signature="e#5824#5825#0" expanded="true" />
-            <element signature="e#6117#6118#0" expanded="true" />
-            <element signature="e#6146#6147#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="845">
+          <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLTreeImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" column="33" selection-start-line="37" selection-end-line="38" />
-          <folding>
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="845">
+          <caret line="110" column="9" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
         </state>
       </provider>
     </entry>
